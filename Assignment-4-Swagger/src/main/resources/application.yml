@@ -1,0 +1,9 @@
+spring:
+   security:
+      oauth2:
+        client:
+          registration:
+            google:
+              client-id: ${Google_client_Id}
+              client-secret: ${Google_client_secret}
+              scope: openid,profile,email 
